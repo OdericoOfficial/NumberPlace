@@ -28,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\NumberPlace.Algorithm\NumberPlace.Algorithm.csproj" />
+    <ProjectReference Include="..\..\src\libs\NumberPlace.Algorithm\NumberPlace.Algorithm.csproj" />
   </ItemGroup>
 
 </Project>

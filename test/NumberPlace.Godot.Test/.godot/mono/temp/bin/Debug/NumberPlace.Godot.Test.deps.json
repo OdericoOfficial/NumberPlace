@@ -1,0 +1,120 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "NumberPlace.Godot.Test/1.0.0": {
+        "dependencies": {
+          "Godot.SourceGenerators": "4.1.1",
+          "GodotSharp": "4.1.1",
+          "GodotSharpEditor": "4.1.1",
+          "NumberPlace.Godot": "1.0.0"
+        },
+        "runtime": {
+          "NumberPlace.Godot.Test.dll": {}
+        }
+      },
+      "Fody/6.2.5": {},
+      "Godot.SourceGenerators/4.1.1": {},
+      "GodotSharp/4.1.1": {
+        "runtime": {
+          "lib/net6.0/GodotSharp.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.1.1.0"
+          }
+        }
+      },
+      "GodotSharpEditor/4.1.1": {
+        "dependencies": {
+          "GodotSharp": "4.1.1"
+        },
+        "runtime": {
+          "lib/net6.0/GodotSharpEditor.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.1.1.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Rougamo.Fody/1.4.1": {
+        "dependencies": {
+          "Fody": "6.2.5",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Rougamo.dll": {
+            "assemblyVersion": "1.4.1.0",
+            "fileVersion": "1.4.1.0"
+          }
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {}
+    }
+  },
+  "libraries": {
+    "NumberPlace.Godot.Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fody/6.2.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wI34APXhZYWlDC9PmA/op+rq0aSB8say00dbNv4PfJIgWEktbmbwmgPflSGN48kJ+Jd5jl682shnW7IUXmKcYw==",
+      "path": "fody/6.2.5",
+      "hashPath": "fody.6.2.5.nupkg.sha512"
+    },
+    "Godot.SourceGenerators/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kti3AjqGFT/myqAg87ykwoGAMrSUZkQaLdpZRWqvO0w2VhDtwUgEEKZk5HK94GzlWHOHZx2UW2fO88G7h56VgA==",
+      "path": "godot.sourcegenerators/4.1.1",
+      "hashPath": "godot.sourcegenerators.4.1.1.nupkg.sha512"
+    },
+    "GodotSharp/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r07Z+O82m5dAqeJMYHDJCGdD0p1gb8vNVi+kIFYGjDNk39Ys3fgsm+x7ZpHEfNSW2oHTn62SCuCE38UAVy17MA==",
+      "path": "godotsharp/4.1.1",
+      "hashPath": "godotsharp.4.1.1.nupkg.sha512"
+    },
+    "GodotSharpEditor/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t29ltWPBHhWDKncK2XFXmHx29jGOqtsR9PFdkjIcRWG5+PdcCJNrCng5cls/H+zGtluGF5L6rNBFbFlBBvTgkA==",
+      "path": "godotsharpeditor/4.1.1",
+      "hashPath": "godotsharpeditor.4.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Rougamo.Fody/1.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tnt0FfWKsEB4UveC1c31v7Do5kOqCq4hez0yz1q2cMPSbXP294gr44ljflaSZp4SBcpWDcNW43/gf/lW8ePL0w==",
+      "path": "rougamo.fody/1.4.1",
+      "hashPath": "rougamo.fody.1.4.1.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    }
+  }
+}

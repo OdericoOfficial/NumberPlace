@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dua47q305kcjc"]
+
+[ext_resource type="Script" path="res://TestIocNode.cs" id="1_i0h4f"]
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_i0h4f")

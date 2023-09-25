@@ -5716,13 +5716,13 @@
     },
     "NumberPlace.Algorithm/1.0.0": {
       "type": "project",
-      "path": "../../src/NumberPlace.Algorithm/NumberPlace.Algorithm.csproj",
-      "msbuildProject": "../../src/NumberPlace.Algorithm/NumberPlace.Algorithm.csproj"
+      "path": "../../src/libs/NumberPlace.Algorithm/NumberPlace.Algorithm.csproj",
+      "msbuildProject": "../../src/libs/NumberPlace.Algorithm/NumberPlace.Algorithm.csproj"
     },
     "NumberPlace.Algorithm.Abstracts/1.0.0": {
       "type": "project",
-      "path": "../../src/NumberPlace.Algorithm.Abstracts/NumberPlace.Algorithm.Abstracts.csproj",
-      "msbuildProject": "../../src/NumberPlace.Algorithm.Abstracts/NumberPlace.Algorithm.Abstracts.csproj"
+      "path": "../../src/libs/NumberPlace.Algorithm.Abstracts/NumberPlace.Algorithm.Abstracts.csproj",
+      "msbuildProject": "../../src/libs/NumberPlace.Algorithm.Abstracts/NumberPlace.Algorithm.Abstracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5771,8 +5771,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\aspdotnet\\NumberPlace\\src\\NumberPlace.Algorithm\\NumberPlace.Algorithm.csproj": {
-              "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\NumberPlace.Algorithm\\NumberPlace.Algorithm.csproj"
+            "D:\\aspdotnet\\NumberPlace\\src\\libs\\NumberPlace.Algorithm\\NumberPlace.Algorithm.csproj": {
+              "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\NumberPlace.Algorithm\\NumberPlace.Algorithm.csproj"
             }
           }
         }

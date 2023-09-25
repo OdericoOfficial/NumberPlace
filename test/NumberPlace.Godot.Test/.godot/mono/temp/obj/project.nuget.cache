@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "xwWquPZvdFSZz138tuYeqym3n0G3nJjcPj3camfIExBfdh2g8aSh4lO7xxXpizbN0Nztzv1RsuzlK8kgRNqnFQ==",
+  "success": true,
+  "projectFilePath": "D:\\aspdotnet\\NumberPlace\\test\\NumberPlace.Godot.Test\\NumberPlace.Godot.Test.csproj",
+  "expectedPackageFiles": [
+    "D:\\NuGet\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
+    "D:\\NuGet\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
+    "D:\\NuGet\\packages\\godotsharpeditor\\4.1.1\\godotsharpeditor.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

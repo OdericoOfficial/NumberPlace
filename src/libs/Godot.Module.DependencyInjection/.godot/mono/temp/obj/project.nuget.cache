@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "tNDr7X1lgwIEnw5h264gE+UpeJTFnrj4CtBU/5edr9/hg+I6S9qyqpPwlNgkZDiNv+y5RX/1SeoxosDe9Y3fvQ==",
+  "success": true,
+  "projectFilePath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.DependencyInjection\\Godot.Module.DependencyInjection.csproj",
+  "expectedPackageFiles": [
+    "D:\\NuGet\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
+    "D:\\NuGet\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
+    "D:\\NuGet\\packages\\godotsharpeditor\\4.1.1\\godotsharpeditor.4.1.1.nupkg.sha512",
+    "D:\\NuGet\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "D:\\NuGet\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
