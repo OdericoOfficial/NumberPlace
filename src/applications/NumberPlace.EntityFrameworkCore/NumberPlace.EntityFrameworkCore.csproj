@@ -12,6 +12,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\aspdotnet\NumberPlace\src\libs\Godot.Module.Repository\Godot.Module.Repository.csproj" />
     <ProjectReference Include="..\..\libs\Gotdot.Module.EntityFrameworkCore\Gotdot.Module.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\NumberPlace.Domain\NumberPlace.Domain.csproj" />
   </ItemGroup>

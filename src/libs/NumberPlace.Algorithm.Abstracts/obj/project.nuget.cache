@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LUtgYG2qpAEJaGVYGJeQP0LMNpBl6CIliE7+KVYIBf8BZbE2WHzijF1oz2L0VXIg1tIEHrip1G7A1v5XhxotGA==",
+  "dgSpecHash": "kGfIGWson6QpLfxmArs6XK56uwcl8wJfLv36voyCIJABZBh6HZRsU3yaLSkwKzKCsYwvkZGWIfFr3OUx6U9Iug==",
   "success": true,
-  "projectFilePath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\NumberPlace.Algorithm.Abstracts\\NumberPlace.Algorithm.Abstracts.csproj",
+  "projectFilePath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\NumberPlace.Algorithm.Abstracts\\NumberPlace.Algorithm.Abstracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

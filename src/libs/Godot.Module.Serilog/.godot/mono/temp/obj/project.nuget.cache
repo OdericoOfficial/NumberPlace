@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+K3ytURU+kUDbsx5CoBAYMFUElt/tTviKJbeWv3wi5qzVv/cOFCFH8P0QHXMU+RTbCp1uKwdDb6F891wcRkzFQ==",
+  "dgSpecHash": "wVearPFmWT4+53P2Tl3BBRcelW6Ltb9lUVSUaH+cm0e2XbOlaeoN3qVSwlOTx60AE+CbTrqVSL9Xjq4a0vd+FQ==",
   "success": true,
-  "projectFilePath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.Serilog\\Godot.Module.Serilog.csproj",
+  "projectFilePath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module.Serilog\\Godot.Module.Serilog.csproj",
   "expectedPackageFiles": [
     "D:\\NuGet\\packages\\fody\\6.2.5\\fody.6.2.5.nupkg.sha512",
     "D:\\NuGet\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",

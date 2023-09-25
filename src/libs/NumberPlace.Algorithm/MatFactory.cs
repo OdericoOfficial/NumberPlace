@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 
 namespace NumberPlace.Algorithm
 {
-    public class MatFactory : IMatFactory
+    internal class MatFactory : IMatFactory
     {
         public event MatGeneratedFailedEventHandler? OnMatGeneratedFailed;
 

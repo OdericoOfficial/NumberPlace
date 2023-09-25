@@ -623,11 +623,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Gotdot.Module.EntityFrameworkCore\\Gotdot.Module.EntityFrameworkCore.csproj",
+      "projectUniqueName": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Gotdot.Module.EntityFrameworkCore\\Gotdot.Module.EntityFrameworkCore.csproj",
       "projectName": "Gotdot.Module.EntityFrameworkCore",
-      "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Gotdot.Module.EntityFrameworkCore\\Gotdot.Module.EntityFrameworkCore.csproj",
+      "projectPath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Gotdot.Module.EntityFrameworkCore\\Gotdot.Module.EntityFrameworkCore.csproj",
       "packagesPath": "D:\\NuGet\\packages",
-      "outputPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Gotdot.Module.EntityFrameworkCore\\.godot\\mono\\temp\\obj\\",
+      "outputPath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Gotdot.Module.EntityFrameworkCore\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -649,8 +649,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj": {
-              "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj"
+            "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj": {
+              "projectPath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj"
             }
           }
         }

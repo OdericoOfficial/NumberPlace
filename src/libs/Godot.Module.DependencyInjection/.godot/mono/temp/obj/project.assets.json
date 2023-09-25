@@ -209,11 +209,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.DependencyInjection\\Godot.Module.DependencyInjection.csproj",
+      "projectUniqueName": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module.DependencyInjection\\Godot.Module.DependencyInjection.csproj",
       "projectName": "Godot.Module.DependencyInjection",
-      "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.DependencyInjection\\Godot.Module.DependencyInjection.csproj",
+      "projectPath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module.DependencyInjection\\Godot.Module.DependencyInjection.csproj",
       "packagesPath": "D:\\NuGet\\packages",
-      "outputPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.DependencyInjection\\.godot\\mono\\temp\\obj\\",
+      "outputPath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module.DependencyInjection\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -235,8 +235,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj": {
-              "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj"
+            "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj": {
+              "projectPath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj"
             }
           }
         }

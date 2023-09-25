@@ -10,7 +10,6 @@
     <ProjectReference Include="..\..\libs\Godot.Module.Serilog\Godot.Module.Serilog.csproj" />
     <ProjectReference Include="..\..\libs\Godot.Module\Godot.Module.csproj" />
     <ProjectReference Include="..\..\libs\NumberPlace.Algorithm\NumberPlace.Algorithm.csproj" />
-    <ProjectReference Include="..\NumberPlace.Application.Abstracts\NumberPlace.Application.Abstracts.csproj" />
     <ProjectReference Include="..\NumberPlace.Domain\NumberPlace.Domain.csproj" />
     <ProjectReference Include="..\NumberPlace.EntityFrameworkCore\NumberPlace.EntityFrameworkCore.csproj" />
   </ItemGroup>

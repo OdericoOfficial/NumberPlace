@@ -94,11 +94,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\aspdotnet\\NumberPlace\\test\\NumberPlace.Godot.Test\\NumberPlace.Godot.Test.csproj",
+      "projectUniqueName": "D:\\dotnetexe\\NumberPlace\\test\\NumberPlace.Godot.Test\\NumberPlace.Godot.Test.csproj",
       "projectName": "NumberPlace.Godot.Test",
-      "projectPath": "D:\\aspdotnet\\NumberPlace\\test\\NumberPlace.Godot.Test\\NumberPlace.Godot.Test.csproj",
+      "projectPath": "D:\\dotnetexe\\NumberPlace\\test\\NumberPlace.Godot.Test\\NumberPlace.Godot.Test.csproj",
       "packagesPath": "D:\\NuGet\\packages",
-      "outputPath": "D:\\aspdotnet\\NumberPlace\\test\\NumberPlace.Godot.Test\\.godot\\mono\\temp\\obj\\",
+      "outputPath": "D:\\dotnetexe\\NumberPlace\\test\\NumberPlace.Godot.Test\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

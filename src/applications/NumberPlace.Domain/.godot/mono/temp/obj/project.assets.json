@@ -87,6 +87,21 @@
         "runtime": {
           "bin/placeholder/Godot.Module.dll": {}
         }
+      },
+      "Godot.Module.Repository.Abstracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Godot.SourceGenerators": "4.1.1",
+          "GodotSharp": "4.1.1",
+          "GodotSharpEditor": "4.1.1"
+        },
+        "compile": {
+          "bin/placeholder/Godot.Module.Repository.Abstracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Godot.Module.Repository.Abstracts.dll": {}
+        }
       }
     }
   },
@@ -192,11 +207,17 @@
       "type": "project",
       "path": "../../libs/Godot.Module/Godot.Module.csproj",
       "msbuildProject": "../../libs/Godot.Module/Godot.Module.csproj"
+    },
+    "Godot.Module.Repository.Abstracts/1.0.0": {
+      "type": "project",
+      "path": "../../../../../aspdotnet/NumberPlace/src/libs/Godot.Module.Repository.Abstracts/Godot.Module.Repository.Abstracts.csproj",
+      "msbuildProject": "../../../../../aspdotnet/NumberPlace/src/libs/Godot.Module.Repository.Abstracts/Godot.Module.Repository.Abstracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Godot.Module >= 1.0.0",
+      "Godot.Module.Repository.Abstracts >= 1.0.0",
       "Godot.SourceGenerators >= 4.1.1",
       "GodotSharp >= 4.1.1",
       "GodotSharpEditor >= 4.1.1"
@@ -209,11 +230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj",
+      "projectUniqueName": "D:\\dotnetexe\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj",
       "projectName": "NumberPlace.Domain",
-      "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj",
+      "projectPath": "D:\\dotnetexe\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj",
       "packagesPath": "D:\\NuGet\\packages",
-      "outputPath": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Domain\\.godot\\mono\\temp\\obj\\",
+      "outputPath": "D:\\dotnetexe\\NumberPlace\\src\\applications\\NumberPlace.Domain\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -235,8 +256,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj": {
-              "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj"
+            "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.Repository.Abstracts\\Godot.Module.Repository.Abstracts.csproj": {
+              "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.Repository.Abstracts\\Godot.Module.Repository.Abstracts.csproj"
+            },
+            "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj": {
+              "projectPath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj"
             }
           }
         }

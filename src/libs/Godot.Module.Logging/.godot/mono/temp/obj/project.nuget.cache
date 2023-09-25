@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HDJCZkEdwwEAYPnTu8eVpMSQpevzVoj3kTTXndgsqRf9NaVU/EIB7+Nt/3WZCakXnHe+kWhp9lidx8kTkjCWgQ==",
+  "dgSpecHash": "b8HS1FOliLYYbmMwytoQ1VTx8OZ4Sybq/a8eJ693TsjB04rCxDQd0VzadeZJJvjUApfQ4OTX4REk8VWep9yHlA==",
   "success": true,
-  "projectFilePath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.Logging\\Godot.Module.Logging.csproj",
+  "projectFilePath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module.Logging\\Godot.Module.Logging.csproj",
   "expectedPackageFiles": [
     "D:\\NuGet\\packages\\fody\\6.2.5\\fody.6.2.5.nupkg.sha512",
     "D:\\NuGet\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
