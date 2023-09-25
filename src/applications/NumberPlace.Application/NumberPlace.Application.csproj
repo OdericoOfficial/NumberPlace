@@ -1,0 +1,18 @@
+<Project Sdk="Godot.NET.Sdk/4.1.1">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\libs\Godot.Module.DependencyInjection\Godot.Module.DependencyInjection.csproj" />
+    <ProjectReference Include="..\..\libs\Godot.Module.Logging\Godot.Module.Logging.csproj" />
+    <ProjectReference Include="..\..\libs\Godot.Module.Serilog\Godot.Module.Serilog.csproj" />
+    <ProjectReference Include="..\..\libs\Godot.Module\Godot.Module.csproj" />
+    <ProjectReference Include="..\..\libs\NumberPlace.Algorithm\NumberPlace.Algorithm.csproj" />
+    <ProjectReference Include="..\NumberPlace.Application.Abstracts\NumberPlace.Application.Abstracts.csproj" />
+    <ProjectReference Include="..\NumberPlace.Domain\NumberPlace.Domain.csproj" />
+    <ProjectReference Include="..\NumberPlace.EntityFrameworkCore\NumberPlace.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+</Project>

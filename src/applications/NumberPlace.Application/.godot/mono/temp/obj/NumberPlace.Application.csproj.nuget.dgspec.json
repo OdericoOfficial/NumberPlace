@@ -1,0 +1,911 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Application\\NumberPlace.Application.csproj": {}
+  },
+  "projects": {
+    "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Application.Abstracts\\NumberPlace.Application.Abstracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Application.Abstracts\\NumberPlace.Application.Abstracts.csproj",
+        "projectName": "NumberPlace.Application.Abstracts",
+        "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Application.Abstracts\\NumberPlace.Application.Abstracts.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Application.Abstracts\\.godot\\mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj": {
+                "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj"
+              },
+              "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj": {
+                "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Godot.SourceGenerators": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "GodotSharp": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "GodotSharpEditor": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Application\\NumberPlace.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Application\\NumberPlace.Application.csproj",
+        "projectName": "NumberPlace.Application",
+        "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Application\\NumberPlace.Application.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Application\\.godot\\mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Application.Abstracts\\NumberPlace.Application.Abstracts.csproj": {
+                "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Application.Abstracts\\NumberPlace.Application.Abstracts.csproj"
+              },
+              "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj": {
+                "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj"
+              },
+              "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.EntityFrameworkCore\\NumberPlace.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.EntityFrameworkCore\\NumberPlace.EntityFrameworkCore.csproj"
+              },
+              "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.DependencyInjection\\Godot.Module.DependencyInjection.csproj": {
+                "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.DependencyInjection\\Godot.Module.DependencyInjection.csproj"
+              },
+              "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.Logging\\Godot.Module.Logging.csproj": {
+                "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.Logging\\Godot.Module.Logging.csproj"
+              },
+              "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.Serilog\\Godot.Module.Serilog.csproj": {
+                "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.Serilog\\Godot.Module.Serilog.csproj"
+              },
+              "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj": {
+                "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj"
+              },
+              "D:\\aspdotnet\\NumberPlace\\src\\libs\\NumberPlace.Algorithm\\NumberPlace.Algorithm.csproj": {
+                "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\NumberPlace.Algorithm\\NumberPlace.Algorithm.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Godot.SourceGenerators": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "GodotSharp": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "GodotSharpEditor": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj",
+        "projectName": "NumberPlace.Domain",
+        "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Domain\\.godot\\mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj": {
+                "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Godot.SourceGenerators": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "GodotSharp": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "GodotSharpEditor": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.EntityFrameworkCore\\NumberPlace.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.EntityFrameworkCore\\NumberPlace.EntityFrameworkCore.csproj",
+        "projectName": "NumberPlace.EntityFrameworkCore",
+        "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.EntityFrameworkCore\\NumberPlace.EntityFrameworkCore.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.EntityFrameworkCore\\.godot\\mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj": {
+                "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj"
+              },
+              "D:\\aspdotnet\\NumberPlace\\src\\libs\\Gotdot.Module.EntityFrameworkCore\\Gotdot.Module.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Gotdot.Module.EntityFrameworkCore\\Gotdot.Module.EntityFrameworkCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Godot.SourceGenerators": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "GodotSharp": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "GodotSharpEditor": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.DependencyInjection\\Godot.Module.DependencyInjection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.DependencyInjection\\Godot.Module.DependencyInjection.csproj",
+        "projectName": "Godot.Module.DependencyInjection",
+        "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.DependencyInjection\\Godot.Module.DependencyInjection.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.DependencyInjection\\.godot\\mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj": {
+                "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Godot.SourceGenerators": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "GodotSharp": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "GodotSharpEditor": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.Logging\\Godot.Module.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.Logging\\Godot.Module.Logging.csproj",
+        "projectName": "Godot.Module.Logging",
+        "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.Logging\\Godot.Module.Logging.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.Logging\\.godot\\mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Godot.SourceGenerators": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "GodotSharp": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "GodotSharpEditor": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Rougamo.Fody": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.Serilog\\Godot.Module.Serilog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.Serilog\\Godot.Module.Serilog.csproj",
+        "projectName": "Godot.Module.Serilog",
+        "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.Serilog\\Godot.Module.Serilog.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.Serilog\\.godot\\mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj": {
+                "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Godot.SourceGenerators": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "GodotSharp": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "GodotSharpEditor": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Rougamo.Fody": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Formatting.Compact": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj",
+        "projectName": "Godot.Module",
+        "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\.godot\\mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Godot.SourceGenerators": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "GodotSharp": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "GodotSharpEditor": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\NumberPlace\\src\\libs\\Gotdot.Module.EntityFrameworkCore\\Gotdot.Module.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Gotdot.Module.EntityFrameworkCore\\Gotdot.Module.EntityFrameworkCore.csproj",
+        "projectName": "Gotdot.Module.EntityFrameworkCore",
+        "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Gotdot.Module.EntityFrameworkCore\\Gotdot.Module.EntityFrameworkCore.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Gotdot.Module.EntityFrameworkCore\\.godot\\mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj": {
+                "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Godot.SourceGenerators": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "GodotSharp": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "GodotSharpEditor": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\NumberPlace\\src\\libs\\NumberPlace.Algorithm.Abstracts\\NumberPlace.Algorithm.Abstracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\NumberPlace\\src\\libs\\NumberPlace.Algorithm.Abstracts\\NumberPlace.Algorithm.Abstracts.csproj",
+        "projectName": "NumberPlace.Algorithm.Abstracts",
+        "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\NumberPlace.Algorithm.Abstracts\\NumberPlace.Algorithm.Abstracts.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\NumberPlace.Algorithm.Abstracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\NumberPlace\\src\\libs\\NumberPlace.Algorithm\\NumberPlace.Algorithm.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\NumberPlace\\src\\libs\\NumberPlace.Algorithm\\NumberPlace.Algorithm.csproj",
+        "projectName": "NumberPlace.Algorithm",
+        "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\NumberPlace.Algorithm\\NumberPlace.Algorithm.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\NumberPlace.Algorithm\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\aspdotnet\\NumberPlace\\src\\libs\\NumberPlace.Algorithm.Abstracts\\NumberPlace.Algorithm.Abstracts.csproj": {
+                "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\NumberPlace.Algorithm.Abstracts\\NumberPlace.Algorithm.Abstracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
