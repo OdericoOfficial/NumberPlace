@@ -1,0 +1,12 @@
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository.Abstracts\.godot\mono\temp\bin\Debug\Godot.Module.Repository.Abstracts.deps.json
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository.Abstracts\.godot\mono\temp\bin\Debug\Godot.Module.Repository.Abstracts.dll
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository.Abstracts\.godot\mono\temp\bin\Debug\Godot.Module.Repository.Abstracts.pdb
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository.Abstracts\.godot\mono\temp\obj\Debug\Godot.Module.Repository.Abstracts.csproj.AssemblyReference.cache
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository.Abstracts\.godot\mono\temp\obj\Debug\Godot.Module.Repository.Abstracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository.Abstracts\.godot\mono\temp\obj\Debug\Godot.Module.Repository.Abstracts.AssemblyInfoInputs.cache
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository.Abstracts\.godot\mono\temp\obj\Debug\Godot.Module.Repository.Abstracts.AssemblyInfo.cs
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository.Abstracts\.godot\mono\temp\obj\Debug\Godot.Module.Repository.Abstracts.csproj.CoreCompileInputs.cache
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository.Abstracts\.godot\mono\temp\obj\Debug\Godot.Module.Repository.Abstracts.dll
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository.Abstracts\.godot\mono\temp\obj\Debug\refint\Godot.Module.Repository.Abstracts.dll
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository.Abstracts\.godot\mono\temp\obj\Debug\Godot.Module.Repository.Abstracts.pdb
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository.Abstracts\.godot\mono\temp\obj\Debug\ref\Godot.Module.Repository.Abstracts.dll

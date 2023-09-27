@@ -10,7 +10,10 @@ namespace NumberPlace.EntityFrameworkCore
         typeof(RepositoryModule))]
     public class NumberPlaceEntityFrameworkModule : CustomModule
     {
-        public override async ValueTask OnApplicationInitializationAsync(IServiceProvider provider)
-            => await provider.GetRequiredService<DbContext>().Database.MigrateAsync();
+        public override void OnApplicationInitialization(IServiceProvider provider)
+        {
+            if (!File.Exists(SqliteActionWrapper.DatabasePath))
+                provider.GetRequiredService<DbContext>().Database.Migrate();
+        }
     }
 }

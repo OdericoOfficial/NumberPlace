@@ -1,11 +1,11 @@
-<Project Sdk="Godot.NET.Sdk/4.1.1">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\aspdotnet\NumberPlace\src\libs\Godot.Module.Repository.Abstracts\Godot.Module.Repository.Abstracts.csproj" />
+    <ProjectReference Include="..\..\libs\Godot.Module.Repository.Abstracts\Godot.Module.Repository.Abstracts.csproj" />
     <ProjectReference Include="..\..\libs\Godot.Module\Godot.Module.csproj" />
   </ItemGroup>
 

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c4sohm1sdlva1"
+path="res://.godot/imported/leathercouch.obj-af90e60f86c511adf3fa45ccd1ce33d1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/leathercouch.obj-af90e60f86c511adf3fa45ccd1ce33d1.mesh"]
+
+source_file="res://Material/Sofa/leathercouch.obj"
+dest_files=["res://.godot/imported/leathercouch.obj-af90e60f86c511adf3fa45ccd1ce33d1.mesh", "res://.godot/imported/leathercouch.obj-af90e60f86c511adf3fa45ccd1ce33d1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

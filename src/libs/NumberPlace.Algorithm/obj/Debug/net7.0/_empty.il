@@ -1,1 +1,0 @@
-.assembly extern mscorlib {}

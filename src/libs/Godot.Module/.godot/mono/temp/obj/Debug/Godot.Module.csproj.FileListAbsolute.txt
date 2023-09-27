@@ -1,0 +1,12 @@
+D:\CodeLive\NumberPlace\src\libs\Godot.Module\.godot\mono\temp\bin\Debug\Godot.Module.deps.json
+D:\CodeLive\NumberPlace\src\libs\Godot.Module\.godot\mono\temp\bin\Debug\Godot.Module.dll
+D:\CodeLive\NumberPlace\src\libs\Godot.Module\.godot\mono\temp\bin\Debug\Godot.Module.pdb
+D:\CodeLive\NumberPlace\src\libs\Godot.Module\.godot\mono\temp\obj\Debug\Godot.Module.csproj.AssemblyReference.cache
+D:\CodeLive\NumberPlace\src\libs\Godot.Module\.godot\mono\temp\obj\Debug\Godot.Module.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeLive\NumberPlace\src\libs\Godot.Module\.godot\mono\temp\obj\Debug\Godot.Module.AssemblyInfoInputs.cache
+D:\CodeLive\NumberPlace\src\libs\Godot.Module\.godot\mono\temp\obj\Debug\Godot.Module.AssemblyInfo.cs
+D:\CodeLive\NumberPlace\src\libs\Godot.Module\.godot\mono\temp\obj\Debug\Godot.Module.csproj.CoreCompileInputs.cache
+D:\CodeLive\NumberPlace\src\libs\Godot.Module\.godot\mono\temp\obj\Debug\Godot.Module.dll
+D:\CodeLive\NumberPlace\src\libs\Godot.Module\.godot\mono\temp\obj\Debug\refint\Godot.Module.dll
+D:\CodeLive\NumberPlace\src\libs\Godot.Module\.godot\mono\temp\obj\Debug\Godot.Module.pdb
+D:\CodeLive\NumberPlace\src\libs\Godot.Module\.godot\mono\temp\obj\Debug\ref\Godot.Module.dll

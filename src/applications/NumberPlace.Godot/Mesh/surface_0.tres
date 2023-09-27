@@ -1,0 +1,11 @@
+[gd_resource type="ORMMaterial3D" load_steps=3 format=3 uid="uid://df4m01s3uqm1o"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qfayj"]
+load_path = "res://.godot/imported/0.png-6a187e09314438706025b8365570482b.s3tc.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xh2q4"]
+load_path = "res://.godot/imported/Material _25_Normal.png-cd42b1c97855ad0c88fdb626e2b09922.s3tc.ctex"
+
+[resource]
+albedo_texture = SubResource("CompressedTexture2D_qfayj")
+normal_texture = SubResource("CompressedTexture2D_xh2q4")

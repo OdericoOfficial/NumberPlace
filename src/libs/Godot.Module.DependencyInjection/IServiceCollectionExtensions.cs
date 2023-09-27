@@ -1,16 +1,14 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 
 namespace Godot.Module.DependencyInjection
 {
     internal static class IServiceCollectionExtensions
     {
-        public static IServiceCollection AddAllServices(this IServiceCollection services)
-        {
-            Assembly assembly = Assembly.GetEntryAssembly()
-                ?? throw new ArgumentNullException("Cannot resolve EntryAssembly.");
-            return services.ResolveFromAttribute(assembly);
-        }
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static IServiceCollection AddAllServices(this IServiceCollection services, Assembly assembly)
+            => services.ResolveFromAttribute(assembly);
 
         private static IServiceCollection ResolveFromAttribute(this IServiceCollection services, Assembly assembly)
         {

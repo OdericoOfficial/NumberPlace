@@ -1,0 +1,17 @@
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository\.godot\mono\temp\bin\Debug\Godot.Module.Repository.deps.json
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository\.godot\mono\temp\bin\Debug\Godot.Module.Repository.dll
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository\.godot\mono\temp\bin\Debug\Godot.Module.Repository.pdb
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository\.godot\mono\temp\bin\Debug\Godot.Module.dll
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository\.godot\mono\temp\bin\Debug\Godot.Module.Repository.Abstracts.dll
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository\.godot\mono\temp\bin\Debug\Godot.Module.Repository.Abstracts.pdb
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository\.godot\mono\temp\bin\Debug\Godot.Module.pdb
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository\.godot\mono\temp\obj\Debug\Godot.Module.Repository.csproj.AssemblyReference.cache
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository\.godot\mono\temp\obj\Debug\Godot.Module.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository\.godot\mono\temp\obj\Debug\Godot.Module.Repository.AssemblyInfoInputs.cache
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository\.godot\mono\temp\obj\Debug\Godot.Module.Repository.AssemblyInfo.cs
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository\.godot\mono\temp\obj\Debug\Godot.Module.Repository.csproj.CoreCompileInputs.cache
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository\.godot\mono\temp\obj\Debug\Godot.Module.Repository.csproj.CopyComplete
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository\.godot\mono\temp\obj\Debug\Godot.Module.Repository.dll
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository\.godot\mono\temp\obj\Debug\refint\Godot.Module.Repository.dll
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository\.godot\mono\temp\obj\Debug\Godot.Module.Repository.pdb
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Repository\.godot\mono\temp\obj\Debug\ref\Godot.Module.Repository.dll

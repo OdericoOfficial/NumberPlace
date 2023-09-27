@@ -1,0 +1,10 @@
+[gd_resource type="QuadMesh" load_steps=3 format=3 uid="uid://7e6p314f6skg"]
+
+[ext_resource type="Texture2D" uid="uid://db2qyre40la0f" path="res://Material/No/Sdk5.png" id="1_o7q22"]
+
+[sub_resource type="ORMMaterial3D" id="ORMMaterial3D_yejj0"]
+albedo_texture = ExtResource("1_o7q22")
+
+[resource]
+material = SubResource("ORMMaterial3D_yejj0")
+size = Vector2(1.5, 0.5)

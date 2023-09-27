@@ -13,12 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{19307F53-1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberPlace.Algorithm.Test", "test\NumberPlace.Algorithm.Test\NumberPlace.Algorithm.Test.csproj", "{A5DB2D99-322A-4DB9-B4A0-27E79A2D7345}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberPlace.Godot.Test", "test\NumberPlace.Godot.Test\NumberPlace.Godot.Test.csproj", "{36A86E97-1AF7-4938-9F98-0038536D7279}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberPlace.Algorithm", "src\libs\NumberPlace.Algorithm\NumberPlace.Algorithm.csproj", "{1494AC42-555A-4971-BC01-3E29D65329BB}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberPlace.Algorithm.Abstracts", "src\libs\NumberPlace.Algorithm.Abstracts\NumberPlace.Algorithm.Abstracts.csproj", "{A17E2C2A-134E-4371-8A1A-2DE0D3C74C3E}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Godot.Module.DependencyInjection", "src\libs\Godot.Module.DependencyInjection\Godot.Module.DependencyInjection.csproj", "{B31E34AD-386A-45C6-82D9-B46D9ADE914F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Godot.Module.Logging", "src\libs\Godot.Module.Logging\Godot.Module.Logging.csproj", "{9DC6106D-C4D4-4CF5-9C12-1D6769FE5848}"
@@ -35,9 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberPlace.Application", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberPlace.EntityFrameworkCore", "src\applications\NumberPlace.EntityFrameworkCore\NumberPlace.EntityFrameworkCore.csproj", "{2B474FB9-F174-4CFA-A67F-866663DFF298}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Godot.Module.Repository", "..\..\aspdotnet\NumberPlace\src\libs\Godot.Module.Repository\Godot.Module.Repository.csproj", "{AF39EC75-3D92-448C-922C-F906EAAA9BCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Godot.Module.Repository", "src\libs\Godot.Module.Repository\Godot.Module.Repository.csproj", "{AF39EC75-3D92-448C-922C-F906EAAA9BCC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Godot.Module.Repository.Abstracts", "..\..\aspdotnet\NumberPlace\src\libs\Godot.Module.Repository.Abstracts\Godot.Module.Repository.Abstracts.csproj", "{61FA2C35-31BA-40EA-A662-00492B26902C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Godot.Module.Repository.Abstracts", "src\libs\Godot.Module.Repository.Abstracts\Godot.Module.Repository.Abstracts.csproj", "{61FA2C35-31BA-40EA-A662-00492B26902C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberPlace.Application.Abstracts", "src\applications\NumberPlace.Application.Abstracts\NumberPlace.Application.Abstracts.csproj", "{A5B74EDE-0B01-40F4-8543-FDB98F6D1127}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberPlace.Godot", "src\applications\NumberPlace.Godot\NumberPlace.Godot.csproj", "{9D043E8A-DEFC-426E-AB48-796838715FAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,30 +53,6 @@ Global
 		{A5DB2D99-322A-4DB9-B4A0-27E79A2D7345}.ExportRelease|Any CPU.Build.0 = Release|Any CPU
 		{A5DB2D99-322A-4DB9-B4A0-27E79A2D7345}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5DB2D99-322A-4DB9-B4A0-27E79A2D7345}.Release|Any CPU.Build.0 = Release|Any CPU
-		{36A86E97-1AF7-4938-9F98-0038536D7279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36A86E97-1AF7-4938-9F98-0038536D7279}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36A86E97-1AF7-4938-9F98-0038536D7279}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
-		{36A86E97-1AF7-4938-9F98-0038536D7279}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
-		{36A86E97-1AF7-4938-9F98-0038536D7279}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
-		{36A86E97-1AF7-4938-9F98-0038536D7279}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
-		{36A86E97-1AF7-4938-9F98-0038536D7279}.Release|Any CPU.ActiveCfg = ExportRelease|Any CPU
-		{36A86E97-1AF7-4938-9F98-0038536D7279}.Release|Any CPU.Build.0 = ExportRelease|Any CPU
-		{1494AC42-555A-4971-BC01-3E29D65329BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1494AC42-555A-4971-BC01-3E29D65329BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1494AC42-555A-4971-BC01-3E29D65329BB}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1494AC42-555A-4971-BC01-3E29D65329BB}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
-		{1494AC42-555A-4971-BC01-3E29D65329BB}.ExportRelease|Any CPU.ActiveCfg = Release|Any CPU
-		{1494AC42-555A-4971-BC01-3E29D65329BB}.ExportRelease|Any CPU.Build.0 = Release|Any CPU
-		{1494AC42-555A-4971-BC01-3E29D65329BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1494AC42-555A-4971-BC01-3E29D65329BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A17E2C2A-134E-4371-8A1A-2DE0D3C74C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A17E2C2A-134E-4371-8A1A-2DE0D3C74C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A17E2C2A-134E-4371-8A1A-2DE0D3C74C3E}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A17E2C2A-134E-4371-8A1A-2DE0D3C74C3E}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
-		{A17E2C2A-134E-4371-8A1A-2DE0D3C74C3E}.ExportRelease|Any CPU.ActiveCfg = Release|Any CPU
-		{A17E2C2A-134E-4371-8A1A-2DE0D3C74C3E}.ExportRelease|Any CPU.Build.0 = Release|Any CPU
-		{A17E2C2A-134E-4371-8A1A-2DE0D3C74C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A17E2C2A-134E-4371-8A1A-2DE0D3C74C3E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B31E34AD-386A-45C6-82D9-B46D9ADE914F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B31E34AD-386A-45C6-82D9-B46D9ADE914F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B31E34AD-386A-45C6-82D9-B46D9ADE914F}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
@@ -159,6 +133,22 @@ Global
 		{61FA2C35-31BA-40EA-A662-00492B26902C}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
 		{61FA2C35-31BA-40EA-A662-00492B26902C}.Release|Any CPU.ActiveCfg = ExportRelease|Any CPU
 		{61FA2C35-31BA-40EA-A662-00492B26902C}.Release|Any CPU.Build.0 = ExportRelease|Any CPU
+		{A5B74EDE-0B01-40F4-8543-FDB98F6D1127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B74EDE-0B01-40F4-8543-FDB98F6D1127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B74EDE-0B01-40F4-8543-FDB98F6D1127}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B74EDE-0B01-40F4-8543-FDB98F6D1127}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B74EDE-0B01-40F4-8543-FDB98F6D1127}.ExportRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B74EDE-0B01-40F4-8543-FDB98F6D1127}.ExportRelease|Any CPU.Build.0 = Release|Any CPU
+		{A5B74EDE-0B01-40F4-8543-FDB98F6D1127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B74EDE-0B01-40F4-8543-FDB98F6D1127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D043E8A-DEFC-426E-AB48-796838715FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D043E8A-DEFC-426E-AB48-796838715FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D043E8A-DEFC-426E-AB48-796838715FAF}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{9D043E8A-DEFC-426E-AB48-796838715FAF}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{9D043E8A-DEFC-426E-AB48-796838715FAF}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{9D043E8A-DEFC-426E-AB48-796838715FAF}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{9D043E8A-DEFC-426E-AB48-796838715FAF}.Release|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{9D043E8A-DEFC-426E-AB48-796838715FAF}.Release|Any CPU.Build.0 = ExportRelease|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -167,9 +157,6 @@ Global
 		{BDC06457-271F-4EE4-9CB2-E3D12A61116E} = {90AD7F3E-2D72-4ECF-9B1B-2547E7539253}
 		{19307F53-1717-4A5B-A143-C02BC5DE6C01} = {90AD7F3E-2D72-4ECF-9B1B-2547E7539253}
 		{A5DB2D99-322A-4DB9-B4A0-27E79A2D7345} = {13F69FED-EA9C-4826-B5B5-0AA935278A2A}
-		{36A86E97-1AF7-4938-9F98-0038536D7279} = {13F69FED-EA9C-4826-B5B5-0AA935278A2A}
-		{1494AC42-555A-4971-BC01-3E29D65329BB} = {19307F53-1717-4A5B-A143-C02BC5DE6C01}
-		{A17E2C2A-134E-4371-8A1A-2DE0D3C74C3E} = {19307F53-1717-4A5B-A143-C02BC5DE6C01}
 		{B31E34AD-386A-45C6-82D9-B46D9ADE914F} = {19307F53-1717-4A5B-A143-C02BC5DE6C01}
 		{9DC6106D-C4D4-4CF5-9C12-1D6769FE5848} = {19307F53-1717-4A5B-A143-C02BC5DE6C01}
 		{915066B7-B9BB-41DF-B3F3-6E6443C7A3A8} = {19307F53-1717-4A5B-A143-C02BC5DE6C01}
@@ -180,6 +167,8 @@ Global
 		{2B474FB9-F174-4CFA-A67F-866663DFF298} = {BDC06457-271F-4EE4-9CB2-E3D12A61116E}
 		{AF39EC75-3D92-448C-922C-F906EAAA9BCC} = {19307F53-1717-4A5B-A143-C02BC5DE6C01}
 		{61FA2C35-31BA-40EA-A662-00492B26902C} = {19307F53-1717-4A5B-A143-C02BC5DE6C01}
+		{A5B74EDE-0B01-40F4-8543-FDB98F6D1127} = {BDC06457-271F-4EE4-9CB2-E3D12A61116E}
+		{9D043E8A-DEFC-426E-AB48-796838715FAF} = {BDC06457-271F-4EE4-9CB2-E3D12A61116E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {59ED7CFE-8076-48B6-9DDC-012D9C9C0F10}

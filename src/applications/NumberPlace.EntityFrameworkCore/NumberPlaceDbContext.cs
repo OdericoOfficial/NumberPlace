@@ -5,6 +5,8 @@ namespace NumberPlace.EntityFrameworkCore
 {
     internal class NumberPlaceDbContext : DbContext
     {
+        public virtual DbSet<NumberMat> NumberMats { get; set; }
+
         public NumberPlaceDbContext(DbContextOptions<NumberPlaceDbContext> options) : base(options)
         {
 

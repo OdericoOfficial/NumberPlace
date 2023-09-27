@@ -1,0 +1,13 @@
+StaticBody3D
+Button
+Node3D
+Node
+CollisionShape3D
+Area3D
+Window
+MeshInstance3D
+OmniLight3D
+LightmapGI
+WorldEnvironment
+Control
+Camera3D

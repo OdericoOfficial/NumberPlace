@@ -210,8 +210,8 @@
     },
     "Godot.Module.Repository.Abstracts/1.0.0": {
       "type": "project",
-      "path": "../../../../../aspdotnet/NumberPlace/src/libs/Godot.Module.Repository.Abstracts/Godot.Module.Repository.Abstracts.csproj",
-      "msbuildProject": "../../../../../aspdotnet/NumberPlace/src/libs/Godot.Module.Repository.Abstracts/Godot.Module.Repository.Abstracts.csproj"
+      "path": "../../libs/Godot.Module.Repository.Abstracts/Godot.Module.Repository.Abstracts.csproj",
+      "msbuildProject": "../../libs/Godot.Module.Repository.Abstracts/Godot.Module.Repository.Abstracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -230,11 +230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dotnetexe\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj",
+      "projectUniqueName": "D:\\CodeLive\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj",
       "projectName": "NumberPlace.Domain",
-      "projectPath": "D:\\dotnetexe\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj",
+      "projectPath": "D:\\CodeLive\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj",
       "packagesPath": "D:\\NuGet\\packages",
-      "outputPath": "D:\\dotnetexe\\NumberPlace\\src\\applications\\NumberPlace.Domain\\.godot\\mono\\temp\\obj\\",
+      "outputPath": "D:\\CodeLive\\NumberPlace\\src\\applications\\NumberPlace.Domain\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -256,11 +256,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.Repository.Abstracts\\Godot.Module.Repository.Abstracts.csproj": {
-              "projectPath": "D:\\aspdotnet\\NumberPlace\\src\\libs\\Godot.Module.Repository.Abstracts\\Godot.Module.Repository.Abstracts.csproj"
+            "D:\\CodeLive\\NumberPlace\\src\\libs\\Godot.Module.Repository.Abstracts\\Godot.Module.Repository.Abstracts.csproj": {
+              "projectPath": "D:\\CodeLive\\NumberPlace\\src\\libs\\Godot.Module.Repository.Abstracts\\Godot.Module.Repository.Abstracts.csproj"
             },
-            "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj": {
-              "projectPath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj"
+            "D:\\CodeLive\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj": {
+              "projectPath": "D:\\CodeLive\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj"
             }
           }
         }

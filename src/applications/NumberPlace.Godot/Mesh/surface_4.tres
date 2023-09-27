@@ -1,0 +1,10 @@
+[gd_resource type="ORMMaterial3D" load_steps=3 format=3 uid="uid://dqttfjmxbbr5s"]
+
+[ext_resource type="Texture2D" uid="uid://bbiuyegjvvr56" path="res://Material/Number/4.png" id="1_sw4gc"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xh2q4"]
+load_path = "res://.godot/imported/Material _25_Normal.png-cd42b1c97855ad0c88fdb626e2b09922.s3tc.ctex"
+
+[resource]
+albedo_texture = ExtResource("1_sw4gc")
+normal_texture = SubResource("CompressedTexture2D_xh2q4")

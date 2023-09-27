@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KxD7kzT7vEeaB+Fi4xCoD7s0TRbX5Oi4E0bcFJWPH/AFhT0rNg8e5oQ7J+FXrCmvnlkXp50NYoPt6J+RciuCRw==",
+  "dgSpecHash": "2LlCcXXf/KIkPPfBxpMGNjYofK4z0zfvqKvlPj4UMuqC21GCXqNRgLYHvyG0WGcK2Li8Zc9AMVlkfgEZoogSHg==",
   "success": true,
-  "projectFilePath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj",
+  "projectFilePath": "D:\\CodeLive\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj",
   "expectedPackageFiles": [
     "D:\\NuGet\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
     "D:\\NuGet\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",

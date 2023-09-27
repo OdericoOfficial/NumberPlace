@@ -1785,29 +1785,6 @@
         "build": {
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
-      },
-      "NumberPlace.Algorithm/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "NumberPlace.Algorithm.Abstracts": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/NumberPlace.Algorithm.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/NumberPlace.Algorithm.dll": {}
-        }
-      },
-      "NumberPlace.Algorithm.Abstracts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/NumberPlace.Algorithm.Abstracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/NumberPlace.Algorithm.Abstracts.dll": {}
-        }
       }
     }
   },
@@ -5713,22 +5690,11 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
-    },
-    "NumberPlace.Algorithm/1.0.0": {
-      "type": "project",
-      "path": "../../src/libs/NumberPlace.Algorithm/NumberPlace.Algorithm.csproj",
-      "msbuildProject": "../../src/libs/NumberPlace.Algorithm/NumberPlace.Algorithm.csproj"
-    },
-    "NumberPlace.Algorithm.Abstracts/1.0.0": {
-      "type": "project",
-      "path": "../../src/libs/NumberPlace.Algorithm.Abstracts/NumberPlace.Algorithm.Abstracts.csproj",
-      "msbuildProject": "../../src/libs/NumberPlace.Algorithm.Abstracts/NumberPlace.Algorithm.Abstracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.NET.Test.Sdk >= 17.7.1",
-      "NumberPlace.Algorithm >= 1.0.0",
       "Serilog.Sinks.Async >= 1.5.0",
       "Serilog.Sinks.Console >= 4.1.0",
       "Serilog.Sinks.Debug >= 2.0.0",
@@ -5770,11 +5736,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "D:\\dotnetexe\\NumberPlace\\src\\libs\\NumberPlace.Algorithm\\NumberPlace.Algorithm.csproj": {
-              "projectPath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\NumberPlace.Algorithm\\NumberPlace.Algorithm.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

@@ -396,9 +396,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Godot.SourceGenerators": "4.1.1",
-          "GodotSharp": "4.1.1",
-          "GodotSharpEditor": "4.1.1",
           "Microsoft.Extensions.DependencyInjection": "7.0.0"
         },
         "compile": {
@@ -1120,11 +1117,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module.Serilog\\Godot.Module.Serilog.csproj",
+      "projectUniqueName": "D:\\CodeLive\\NumberPlace\\src\\libs\\Godot.Module.Serilog\\Godot.Module.Serilog.csproj",
       "projectName": "Godot.Module.Serilog",
-      "projectPath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module.Serilog\\Godot.Module.Serilog.csproj",
+      "projectPath": "D:\\CodeLive\\NumberPlace\\src\\libs\\Godot.Module.Serilog\\Godot.Module.Serilog.csproj",
       "packagesPath": "D:\\NuGet\\packages",
-      "outputPath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module.Serilog\\.godot\\mono\\temp\\obj\\",
+      "outputPath": "D:\\CodeLive\\NumberPlace\\src\\libs\\Godot.Module.Serilog\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1146,8 +1143,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj": {
-              "projectPath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj"
+            "D:\\CodeLive\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj": {
+              "projectPath": "D:\\CodeLive\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj"
             }
           }
         }

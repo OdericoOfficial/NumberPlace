@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bomicydntdhub"
+path="res://.godot/imported/wooden stool.obj-149b9f15b9523f4ef2581811e1eeb6f3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wooden stool.obj-149b9f15b9523f4ef2581811e1eeb6f3.mesh"]
+
+source_file="res://Material/Stool/Obj folder/wooden stool.obj"
+dest_files=["res://.godot/imported/wooden stool.obj-149b9f15b9523f4ef2581811e1eeb6f3.mesh", "res://.godot/imported/wooden stool.obj-149b9f15b9523f4ef2581811e1eeb6f3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

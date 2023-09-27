@@ -1,0 +1,128 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1695822916
+Button.gd::GDScript::-1::1695727275::0::1::::<>MeshInstance3D<>::
+GuiNode.cs::CSharpScript::-1::1695822916::0::1::::<><>::
+icon.svg::CompressedTexture2D::2466601586297944218::1695385081::1695385139::1::::<><>::
+InputAreaNode.cs::CSharpScript::-1::1695819059::0::1::::<><>::
+node_3d.tscn::PackedScene::3841105385213553535::1695819878::0::1::::<><>::uid://chxwwbnj8ea3e::::res://Material/Table/Obj  in rar format/round table Ultimate(free Final).obj<>res://NumberPlaceApplication.cs<>uid://jdqm0cq063rf::::res://Material/Table/Textures/Round table texture .png<>res://NumberPlaceNode.cs<>uid://dktc3asxmsch::::res://Material/Table/Textures/Round table texture _NRM.jpg<>uid://40dt11vcsf1u::::res://Material/Table/Textures/Round table texture Occulsion  map.png<>uid://bomicydntdhub::::res://Material/Stool/Obj folder/wooden stool.obj<>uid://ceti3hddyelle::::res://Material/Stool/Textures/wooden stool texture(F).png<>uid://cjsnhp4on82ne::::res://Material/Stool/Textures/wooden stool texture(F)_NRM.jpg<>uid://b6vvnlnvi2pa1::::res://Material/Board/10330_Wooden Cutting Board_v2_max2010_it2.obj<>uid://bvbnh1su55l3n::::res://Material/Number/Block.obj<>uid://cnegqbbv6b6so::::res://Material/Floor/woodenFloor.jpeg<>uid://ct74oew6w2ot2::::res://Material/Floor/Textures/Material _25_Height.png<>uid://jepbdk8p1h4w::::res://Material/Floor/Textures/Material _25_Normal.png<>uid://cvvnenyx5hb2w::::res://Material/Floor/Textures/Material _25_Metallic.png<>uid://iy8ihvtp53o6::::res://Material/Number/0.png<>uid://dxog76p5qqoal::::res://Material/Counter/3d-model.obj<>uid://cbf31bg8nxd5o::::res://Material/Counter/wood.webp<>uid://c4sohm1sdlva1::::res://Material/Sofa/leathercouch.obj<>uid://cu2wtkn5w8rx6::::res://Material/Sofa/Texture/leathercouch_leathercouch_BaseColor.png<>uid://dalpuowhoxvwr::::res://Material/Sofa/Texture/leathercouch_leathercouch_Height.png<>uid://cx27oumfr2syl::::res://Material/Sofa/Texture/leathercouch_leathercouch_Normal.png<>uid://b3b8prh47exex::::res://Material/Wall/wall.obj<>uid://duv1ou6bd2s4q::::res://Material/Sofa/Texture/leathercouch_leathercouch_Roughness.png<>uid://qianyio0k2ot::::res://Material/Wall/Wooden.jpg<>uid://bosauk16ua01p::::res://Material/Sofa/Texture/leathercouch_couchlegs_BaseColor.png<>uid://dr01whi8v7dr::::res://Material/Sofa/Texture/leathercouch_couchlegs_Normal.png<>uid://djrolrwuh3mmi::::res://Material/Wall/wall.webp<>uid://b0nhbbseoo8dv::::res://Material/Sofa/Texture/leathercouch_couchlegs_Roughness.png<>uid://bp434tb25ud3q::::res://Material/Barrel/uploads_files_2023543_barrel.obj<>uid://c88n1inkk8sm7::::res://Material/Barrel/textures/wood_3.jpg<>uid://cv6wvodu8mo72::::res://Material/Barrel/textures/wood_3_NRM.jpg<>uid://d2lnh731a6tpy::::res://Material/Barrel/textures/metal.jpg<>uid://bktaaf10bfpu6::::res://Material/Barrel/textures/metal_NRM.jpg<>uid://cv2mt6k87anry::::res://Material/GUI/Title.png<>uid://cjfy2x54y3heo::::res://Material/GUI/Start.png<>res://GuiNode.cs<>uid://cw8ee4jr6kjms::::res://Material/GUI/Record.png<>uid://dworpc5thdhcn::::res://Material/GUI/Quit.png<>uid://b7e244jfao17m::::res://Material/GUI/Dif.png<>uid://d1s50ff45b5q6::::res://Material/GUI/Easy.png<>uid://d3bo7sr1a0pdx::::res://Material/GUI/Mid.png<>res://InputAreaNode.cs<>uid://bqh2h51brd0g1::::res://Material/GUI/Master.png<>uid://wblhanr0rspj::::res://Material/GUI/Return.png<>uid://bxi7413ochjl5::::res://Material/GUI/Left.png<>uid://nws7pv3w3o6w::::res://Material/GUI/Right.png<>uid://dhkl6gkuq3bci::::res://Material/No/Sdk1.png
+NumberPlaceApplication.cs::CSharpScript::-1::1695736250::0::1::::<><>::
+NumberPlaceModule.cs::CSharpScript::-1::1695717546::0::1::::<><>::
+::res://Material/::1695810104
+::res://Material/Barrel/::1695809248
+uploads_files_2023543_barrel.obj::Mesh::3500873157708117492::1695532833::1695532946::1::::<><>::
+::res://Material/Barrel/textures/::1695809248
+metal.jpg::CompressedTexture2D::9077872531248423578::1561726108::1695533070::1::::<><>::
+metal_NRM.jpg::CompressedTexture2D::3127532601319662683::1561726108::1695533108::1::::<><>::
+wood_3.jpg::CompressedTexture2D::7158033865611029160::1561726108::1695533077::1::::<><>::
+wood_3_NRM.jpg::CompressedTexture2D::6312176810588212035::1561726108::1695533088::1::::<><>::
+::res://Material/Board/::1695809248
+10330_Wooden Cutting Board_v1_diffuse.JPG::CompressedTexture2D::958351000942124602::1303027522::1695390662::1::::<><>::
+10330_Wooden Cutting Board_v2_max2010_it2.obj::Mesh::4606925640281441806::1303294570::1695390663::1::::<><>::uid://nwh5vrw5es07
+round table Ultimate(free Final).fbx::PackedScene::7721164073318443967::1695462600::1695462607::1::::<><>::
+::res://Material/Button/::1695809248
+button.png::CompressedTexture2D::2561871219753317445::1695725980::1695726003::1::::<><>::
+::res://Material/Counter/::1695809248
+3d-model.obj::Mesh::8802929843453450179::1444922768::1695527615::1::::<><>::
+wood.webp::CompressedTexture2D::4855098669543348158::1695532217::1695532220::1::::<><>::
+::res://Material/Floor/::1695809248
+woodenFloor.jpeg::CompressedTexture2D::5693946775419739974::1695475114::1695475130::1::::<><>::
+woodenFloor.webp::CompressedTexture2D::1372491622044083360::1695475407::1695475422::1::::<><>::
+::res://Material/Floor/Textures/::1695809248
+Material _25_Base_Color.png::CompressedTexture2D::8324178211494093548::1571132620::1695473885::1::::<><>::
+Material _25_Height.png::CompressedTexture2D::6174275524061699569::1571132620::1695474757::1::::<><>::
+Material _25_Metallic.png::CompressedTexture2D::6290956201665961000::1571132620::1695474690::1::::<><>::
+Material _25_Mixed_AO.png::CompressedTexture2D::7019670687279061282::1571132621::1695473295::1::::<><>::
+Material _25_Normal.png::CompressedTexture2D::640869818982472044::1571132621::1695474632::1::::<><>::
+Material _25_Normal_OpenGL.png::CompressedTexture2D::6785295311224994099::1571132621::1695473295::1::::<><>::
+Material _25_Roughness.png::CompressedTexture2D::8578855086548834310::1571132620::1695473296::1::::<><>::
+::res://Material/GUI/::1695809248
+Dif.png::CompressedTexture2D::4642413875262465412::1695743884::1695744316::1::::<><>::
+Easy.png::CompressedTexture2D::9023197211570402175::1695744021::1695744494::1::::<><>::
+Left.png::CompressedTexture2D::4019275250692774864::1695794389::1695794501::1::::<><>::
+Master.png::CompressedTexture2D::3525546301475785746::1695744057::1695744711::1::::<><>::
+Mid.png::CompressedTexture2D::9127522206866255617::1695744034::1695744566::1::::<><>::
+Quit.png::CompressedTexture2D::8733377027722042069::1695742789::1695742853::1::::<><>::
+Record.png::CompressedTexture2D::6385371942348199022::1695742843::1695742853::1::::<><>::
+Return.png::CompressedTexture2D::1546899346157495111::1695744853::1695744934::1::::<><>::
+Right.png::CompressedTexture2D::959022150752343020::1695794407::1695794516::1::::<><>::
+Start.png::CompressedTexture2D::5416369528892613682::1695742778::1695742853::1::::<><>::
+Title.png::CompressedTexture2D::6303309462355932718::1695742583::1695742585::1::::<><>::
+::res://Material/No/::1695810234
+Sdk1.png::CompressedTexture2D::7671951312136947120::1695809873::1695810234::1::::<><>::
+Sdk2.png::CompressedTexture2D::5900645755552963674::1695809887::1695823038::1::::<><>::
+Sdk3.png::CompressedTexture2D::164546691632121810::1695809901::1695823053::1::::<><>::
+Sdk4.png::CompressedTexture2D::9179194172372574037::1695809918::1695823065::1::::<><>::
+Sdk5.png::CompressedTexture2D::7286204325442569439::1695809931::1695823088::1::::<><>::
+Sdk6.png::CompressedTexture2D::5490999912230709024::1695809946::1695823101::1::::<><>::
+Sdk7.png::CompressedTexture2D::271837303122413441::1695809964::1695823112::1::::<><>::
+Sdk8.png::CompressedTexture2D::3992679743511968891::1695809978::1695823127::1::::<><>::
+Sdk9.png::CompressedTexture2D::6863425195286679591::1695809990::1695823138::1::::<><>::
+::res://Material/Number/::1695809248
+0.png::CompressedTexture2D::613074163303100011::1695465285::1695480452::1::::<><>::
+1.png::CompressedTexture2D::3643864596198014016::1695464727::1695480170::1::::<><>::
+2.png::CompressedTexture2D::6060871898328360878::1695464735::1695480170::1::::<><>::
+3.png::CompressedTexture2D::1884137510774539587::1695464839::1695480170::1::::<><>::
+4.png::CompressedTexture2D::2474381968072713463::1695464844::1695480170::1::::<><>::
+5.png::CompressedTexture2D::7325720867794882621::1695464849::1695480170::1::::<><>::
+6.png::CompressedTexture2D::599996691769854602::1695464855::1695480170::1::::<><>::
+7.png::CompressedTexture2D::7881970038003085447::1695464860::1695480170::1::::<><>::
+8.png::CompressedTexture2D::4571418136159482264::1695464865::1695480170::1::::<><>::
+9.png::CompressedTexture2D::2848878778410039046::1695464869::1695480170::1::::<><>::
+Block.obj::Mesh::3863253993672713793::1373329573::1695480236::1::::<><>::
+::res://Material/Sofa/::1695809248
+leathercouch.obj::Mesh::6846339842185701814::1611306064::1695530299::1::::<><>::
+::res://Material/Sofa/Texture/::1695809248
+leathercouch_couchlegs_BaseColor.png::CompressedTexture2D::3406259576910399239::1611304702::1695530457::1::::<><>::
+leathercouch_couchlegs_Height.png::CompressedTexture2D::8016138066561756901::1611304698::1695530295::1::::<><>::
+leathercouch_couchlegs_Metallic.png::CompressedTexture2D::2057772384450340603::1611304697::1695530295::1::::<><>::
+leathercouch_couchlegs_Normal.png::CompressedTexture2D::247226474929581295::1611304701::1695531072::1::::<><>::
+leathercouch_couchlegs_Roughness.png::CompressedTexture2D::4168405570720826447::1611304699::1695531031::1::::<><>::
+leathercouch_leathercouch_BaseColor.png::CompressedTexture2D::6233726690141257433::1611304698::1695530765::1::::<><>::
+leathercouch_leathercouch_Height.png::CompressedTexture2D::7182917446793840457::1611304697::1695530827::1::::<><>::
+leathercouch_leathercouch_Metallic.png::CompressedTexture2D::2412166878737693275::1611304696::1695530905::1::::<><>::
+leathercouch_leathercouch_Normal.png::CompressedTexture2D::6444891984559389835::1611304702::1695530826::1::::<><>::
+leathercouch_leathercouch_Roughness.png::CompressedTexture2D::8607995598008269978::1611304696::1695530878::1::::<><>::
+::res://Material/Stool/::1695809248
+wooden stool.fbx::PackedScene::6520902457412775971::1536264926::1695390722::1::::<><>::
+::res://Material/Stool/Obj folder/::1695809248
+wooden stool.obj::Mesh::3394327601015207533::1536264937::1695390721::1::::<><>::
+::res://Material/Stool/Textures/::1695809248
+logo 1.png::CompressedTexture2D::3951841753191659003::1536009201::1695390721::1::::<><>::
+wooden stool texture(F).png::CompressedTexture2D::5093356029903349094::1536262664::1695392909::1::::<><>::
+wooden stool texture(F)_NRM.jpg::CompressedTexture2D::5442502414469245058::1536265831::1695392948::1::::<><>::
+wooden stool texture(Glossy map).png::CompressedTexture2D::2136750327563525196::1536263386::1695390720::1::::<><>::
+::res://Material/Table/::1695809248
+round table Ultimate(free Final).fbx::PackedScene::1105585057584765720::1536624071::1695385401::1::::<><>::
+::res://Material/Table/Obj  in rar format/::1695809248
+round table Ultimate(free Final).obj::Mesh::5313019095561557196::1536624077::1695385394::1::::<><>::
+::res://Material/Table/Textures/::1695809248
+Round table texture .png::CompressedTexture2D::638886944350581951::1536613442::1695389502::1::::<><>::
+Round table texture Gloss map.png::CompressedTexture2D::3849850612364025040::1536614909::1695389502::1::::<><>::
+Round table texture Occulsion  map.png::CompressedTexture2D::2087303397146475244::1536615386::1695389502::1::::<><>::
+Round table texture _NRM.jpg::CompressedTexture2D::232368974407937443::1536616703::1695392061::1::::<><>::
+Round table texture _SPEC.jpg::CompressedTexture2D::4706493768497907165::1536616709::1695389502::1::::<><>::
+::res://Material/Wall/::1695809248
+dark-wood-wallpapers-25196-6012074.jpg::CompressedTexture2D::8724148639134721938::1695473297::1695474719::1::::<><>::
+wall.obj::Mesh::4355804036053091707::1453824431::1695473815::1::::<><>::
+wall.webp::CompressedTexture2D::7826926675074122400::1695474162::1695474182::1::::<><>::
+Wooden.jpg::CompressedTexture2D::1139561009150527867::1695474982::1695474983::1::::<><>::
+::res://Mesh/::1695823011
+mesh_1.tres::QuadMesh::6420368482158288355::1695822955::0::1::::<><>::uid://dhkl6gkuq3bci::::res://Material/No/Sdk1.png
+mesh_2.tres::QuadMesh::-1::1695822955::0::1::::<><>::
+mesh_3.tres::QuadMesh::-1::1695822955::0::1::::<><>::
+mesh_4.tres::QuadMesh::-1::1695822955::0::1::::<><>::
+mesh_5.tres::QuadMesh::-1::1695822955::0::1::::<><>::
+mesh_6.tres::QuadMesh::-1::1695822955::0::1::::<><>::
+mesh_7.tres::QuadMesh::-1::1695822955::0::1::::<><>::
+mesh_8.tres::QuadMesh::-1::1695822955::0::1::::<><>::
+mesh_9.tres::QuadMesh::-1::1695822955::0::1::::<><>::
+surface_0.tres::ORMMaterial3D::7570847867611164018::1695822469::0::1::::<><>::
+surface_1.tres::ORMMaterial3D::3951570265476434232::1695822501::0::1::::<><>::
+surface_2.tres::ORMMaterial3D::7270604905776181348::1695822586::0::1::::<><>::uid://iy8ihvtp53o6
+surface_3.tres::ORMMaterial3D::2507721243933012214::1695822592::0::1::::<><>::uid://iy8ihvtp53o6::::res://Material/Number/0.png<>uid://jepbdk8p1h4w::::res://Material/Floor/Textures/Material _25_Normal.png
+surface_4.tres::ORMMaterial3D::-1::1695822469::0::1::::<><>::
+surface_5.tres::ORMMaterial3D::-1::1695822501::0::1::::<><>::
+surface_6.tres::ORMMaterial3D::-1::1695822586::0::1::::<><>::
+surface_7.tres::ORMMaterial3D::-1::1695822592::0::1::::<><>::
+surface_8.tres::ORMMaterial3D::-1::1695822592::0::1::::<><>::
+surface_9.tres::ORMMaterial3D::-1::1695822592::0::1::::<><>::

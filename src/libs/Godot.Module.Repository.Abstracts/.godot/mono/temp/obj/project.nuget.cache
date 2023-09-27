@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "E0mZCL1ok1RBBm6r/dllDrTWzzKTdUt0P877pxoajWbe8hwyC22mlcq/HjsKJ/HfTTLtNHXIhNj+RjeDJ5ChIg==",
+  "success": true,
+  "projectFilePath": "D:\\CodeLive\\NumberPlace\\src\\libs\\Godot.Module.Repository.Abstracts\\Godot.Module.Repository.Abstracts.csproj",
+  "expectedPackageFiles": [
+    "D:\\NuGet\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
+    "D:\\NuGet\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
+    "D:\\NuGet\\packages\\godotsharpeditor\\4.1.1\\godotsharpeditor.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

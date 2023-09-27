@@ -5,7 +5,7 @@
       "Fody/6.2.5": {
         "type": "package",
         "build": {
-          "build/_._": {}
+          "build/Fody.targets": {}
         }
       },
       "Godot.SourceGenerators/4.1.1": {
@@ -378,7 +378,7 @@
           }
         },
         "build": {
-          "build/_._": {}
+          "build/Rougamo.Fody.props": {}
         }
       },
       "Serilog/3.0.1": {
@@ -753,7 +753,8 @@
           "Godot.SourceGenerators": "4.1.1",
           "GodotSharp": "4.1.1",
           "GodotSharpEditor": "4.1.1",
-          "Microsoft.EntityFrameworkCore": "7.0.11"
+          "Microsoft.EntityFrameworkCore": "7.0.11",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "compile": {
           "bin/placeholder/Godot.Module.Repository.dll": {}
@@ -818,27 +819,14 @@
           "bin/placeholder/Gotdot.Module.EntityFrameworkCore.dll": {}
         }
       },
-      "NumberPlace.Algorithm/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "NumberPlace.Algorithm.Abstracts": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/NumberPlace.Algorithm.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/NumberPlace.Algorithm.dll": {}
-        }
-      },
-      "NumberPlace.Algorithm.Abstracts/1.0.0": {
+      "NumberPlace.Application.Abstracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/NumberPlace.Algorithm.Abstracts.dll": {}
+          "bin/placeholder/NumberPlace.Application.Abstracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/NumberPlace.Algorithm.Abstracts.dll": {}
+          "bin/placeholder/NumberPlace.Application.Abstracts.dll": {}
         }
       },
       "NumberPlace.Domain/1.0.0": {
@@ -1842,13 +1830,13 @@
     },
     "Godot.Module.Repository/1.0.0": {
       "type": "project",
-      "path": "../../../../../aspdotnet/NumberPlace/src/libs/Godot.Module.Repository/Godot.Module.Repository.csproj",
-      "msbuildProject": "../../../../../aspdotnet/NumberPlace/src/libs/Godot.Module.Repository/Godot.Module.Repository.csproj"
+      "path": "../../libs/Godot.Module.Repository/Godot.Module.Repository.csproj",
+      "msbuildProject": "../../libs/Godot.Module.Repository/Godot.Module.Repository.csproj"
     },
     "Godot.Module.Repository.Abstracts/1.0.0": {
       "type": "project",
-      "path": "../../../../../aspdotnet/NumberPlace/src/libs/Godot.Module.Repository.Abstracts/Godot.Module.Repository.Abstracts.csproj",
-      "msbuildProject": "../../../../../aspdotnet/NumberPlace/src/libs/Godot.Module.Repository.Abstracts/Godot.Module.Repository.Abstracts.csproj"
+      "path": "../../libs/Godot.Module.Repository.Abstracts/Godot.Module.Repository.Abstracts.csproj",
+      "msbuildProject": "../../libs/Godot.Module.Repository.Abstracts/Godot.Module.Repository.Abstracts.csproj"
     },
     "Godot.Module.Serilog/1.0.0": {
       "type": "project",
@@ -1860,15 +1848,10 @@
       "path": "../../libs/Gotdot.Module.EntityFrameworkCore/Gotdot.Module.EntityFrameworkCore.csproj",
       "msbuildProject": "../../libs/Gotdot.Module.EntityFrameworkCore/Gotdot.Module.EntityFrameworkCore.csproj"
     },
-    "NumberPlace.Algorithm/1.0.0": {
+    "NumberPlace.Application.Abstracts/1.0.0": {
       "type": "project",
-      "path": "../../libs/NumberPlace.Algorithm/NumberPlace.Algorithm.csproj",
-      "msbuildProject": "../../libs/NumberPlace.Algorithm/NumberPlace.Algorithm.csproj"
-    },
-    "NumberPlace.Algorithm.Abstracts/1.0.0": {
-      "type": "project",
-      "path": "../../libs/NumberPlace.Algorithm.Abstracts/NumberPlace.Algorithm.Abstracts.csproj",
-      "msbuildProject": "../../libs/NumberPlace.Algorithm.Abstracts/NumberPlace.Algorithm.Abstracts.csproj"
+      "path": "../NumberPlace.Application.Abstracts/NumberPlace.Application.Abstracts.csproj",
+      "msbuildProject": "../NumberPlace.Application.Abstracts/NumberPlace.Application.Abstracts.csproj"
     },
     "NumberPlace.Domain/1.0.0": {
       "type": "project",
@@ -1890,9 +1873,10 @@
       "Godot.SourceGenerators >= 4.1.1",
       "GodotSharp >= 4.1.1",
       "GodotSharpEditor >= 4.1.1",
-      "NumberPlace.Algorithm >= 1.0.0",
+      "NumberPlace.Application.Abstracts >= 1.0.0",
       "NumberPlace.Domain >= 1.0.0",
-      "NumberPlace.EntityFrameworkCore >= 1.0.0"
+      "NumberPlace.EntityFrameworkCore >= 1.0.0",
+      "Rougamo.Fody >= 1.4.1"
     ]
   },
   "packageFolders": {
@@ -1902,11 +1886,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dotnetexe\\NumberPlace\\src\\applications\\NumberPlace.Application\\NumberPlace.Application.csproj",
+      "projectUniqueName": "D:\\CodeLive\\NumberPlace\\src\\applications\\NumberPlace.Application\\NumberPlace.Application.csproj",
       "projectName": "NumberPlace.Application",
-      "projectPath": "D:\\dotnetexe\\NumberPlace\\src\\applications\\NumberPlace.Application\\NumberPlace.Application.csproj",
+      "projectPath": "D:\\CodeLive\\NumberPlace\\src\\applications\\NumberPlace.Application\\NumberPlace.Application.csproj",
       "packagesPath": "D:\\NuGet\\packages",
-      "outputPath": "D:\\dotnetexe\\NumberPlace\\src\\applications\\NumberPlace.Application\\.godot\\mono\\temp\\obj\\",
+      "outputPath": "D:\\CodeLive\\NumberPlace\\src\\applications\\NumberPlace.Application\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1928,26 +1912,26 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\dotnetexe\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj": {
-              "projectPath": "D:\\dotnetexe\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj"
+            "D:\\CodeLive\\NumberPlace\\src\\applications\\NumberPlace.Application.Abstracts\\NumberPlace.Application.Abstracts.csproj": {
+              "projectPath": "D:\\CodeLive\\NumberPlace\\src\\applications\\NumberPlace.Application.Abstracts\\NumberPlace.Application.Abstracts.csproj"
             },
-            "D:\\dotnetexe\\NumberPlace\\src\\applications\\NumberPlace.EntityFrameworkCore\\NumberPlace.EntityFrameworkCore.csproj": {
-              "projectPath": "D:\\dotnetexe\\NumberPlace\\src\\applications\\NumberPlace.EntityFrameworkCore\\NumberPlace.EntityFrameworkCore.csproj"
+            "D:\\CodeLive\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj": {
+              "projectPath": "D:\\CodeLive\\NumberPlace\\src\\applications\\NumberPlace.Domain\\NumberPlace.Domain.csproj"
             },
-            "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module.DependencyInjection\\Godot.Module.DependencyInjection.csproj": {
-              "projectPath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module.DependencyInjection\\Godot.Module.DependencyInjection.csproj"
+            "D:\\CodeLive\\NumberPlace\\src\\applications\\NumberPlace.EntityFrameworkCore\\NumberPlace.EntityFrameworkCore.csproj": {
+              "projectPath": "D:\\CodeLive\\NumberPlace\\src\\applications\\NumberPlace.EntityFrameworkCore\\NumberPlace.EntityFrameworkCore.csproj"
             },
-            "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module.Logging\\Godot.Module.Logging.csproj": {
-              "projectPath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module.Logging\\Godot.Module.Logging.csproj"
+            "D:\\CodeLive\\NumberPlace\\src\\libs\\Godot.Module.DependencyInjection\\Godot.Module.DependencyInjection.csproj": {
+              "projectPath": "D:\\CodeLive\\NumberPlace\\src\\libs\\Godot.Module.DependencyInjection\\Godot.Module.DependencyInjection.csproj"
             },
-            "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module.Serilog\\Godot.Module.Serilog.csproj": {
-              "projectPath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module.Serilog\\Godot.Module.Serilog.csproj"
+            "D:\\CodeLive\\NumberPlace\\src\\libs\\Godot.Module.Logging\\Godot.Module.Logging.csproj": {
+              "projectPath": "D:\\CodeLive\\NumberPlace\\src\\libs\\Godot.Module.Logging\\Godot.Module.Logging.csproj"
             },
-            "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj": {
-              "projectPath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj"
+            "D:\\CodeLive\\NumberPlace\\src\\libs\\Godot.Module.Serilog\\Godot.Module.Serilog.csproj": {
+              "projectPath": "D:\\CodeLive\\NumberPlace\\src\\libs\\Godot.Module.Serilog\\Godot.Module.Serilog.csproj"
             },
-            "D:\\dotnetexe\\NumberPlace\\src\\libs\\NumberPlace.Algorithm\\NumberPlace.Algorithm.csproj": {
-              "projectPath": "D:\\dotnetexe\\NumberPlace\\src\\libs\\NumberPlace.Algorithm\\NumberPlace.Algorithm.csproj"
+            "D:\\CodeLive\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj": {
+              "projectPath": "D:\\CodeLive\\NumberPlace\\src\\libs\\Godot.Module\\Godot.Module.csproj"
             }
           }
         }
@@ -1973,6 +1957,10 @@
           "GodotSharpEditor": {
             "target": "Package",
             "version": "[4.1.1, )"
+          },
+          "Rougamo.Fody": {
+            "target": "Package",
+            "version": "[1.4.1, )"
           }
         },
         "imports": [

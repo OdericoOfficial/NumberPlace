@@ -1,0 +1,14 @@
+<Project Sdk="Godot.NET.Sdk/4.1.1">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+	<Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Rougamo.Fody" Version="1.4.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\libs\Godot.Module\Godot.Module.csproj" />
+    <ProjectReference Include="..\NumberPlace.Application\NumberPlace.Application.csproj" />
+  </ItemGroup>
+</Project>

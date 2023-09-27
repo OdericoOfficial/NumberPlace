@@ -1,0 +1,6 @@
+[gd_resource type="ORMMaterial3D" load_steps=2 format=3 uid="uid://bwkf1xnkub3aa"]
+
+[ext_resource type="Texture2D" uid="uid://br6d6gwmqtgaq" path="res://Material/Number/1.png" id="1_pcspi"]
+
+[resource]
+albedo_texture = ExtResource("1_pcspi")

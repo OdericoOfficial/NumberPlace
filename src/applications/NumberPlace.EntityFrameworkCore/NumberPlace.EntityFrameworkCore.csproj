@@ -1,10 +1,14 @@
-<Project Sdk="Godot.NET.Sdk/4.1.1">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.11">
       <PrivateAssets>all</PrivateAssets>
@@ -12,9 +16,14 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\aspdotnet\NumberPlace\src\libs\Godot.Module.Repository\Godot.Module.Repository.csproj" />
+    <ProjectReference Include="..\..\libs\Godot.Module.Repository\Godot.Module.Repository.csproj" />
     <ProjectReference Include="..\..\libs\Gotdot.Module.EntityFrameworkCore\Gotdot.Module.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\NumberPlace.Domain\NumberPlace.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="NumberPlace.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

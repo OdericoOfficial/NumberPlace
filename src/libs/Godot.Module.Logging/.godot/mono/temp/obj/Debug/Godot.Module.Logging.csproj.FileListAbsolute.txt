@@ -1,0 +1,13 @@
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Logging\.godot\mono\temp\bin\Debug\Godot.Module.Logging.deps.json
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Logging\.godot\mono\temp\bin\Debug\Godot.Module.Logging.dll
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Logging\.godot\mono\temp\bin\Debug\Godot.Module.Logging.pdb
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Logging\.godot\mono\temp\obj\Debug\Godot.Module.Logging.csproj.AssemblyReference.cache
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Logging\.godot\mono\temp\obj\Debug\Godot.Module.Logging.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Logging\.godot\mono\temp\obj\Debug\Godot.Module.Logging.AssemblyInfoInputs.cache
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Logging\.godot\mono\temp\obj\Debug\Godot.Module.Logging.AssemblyInfo.cs
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Logging\.godot\mono\temp\obj\Debug\Godot.Module.Logging.csproj.CoreCompileInputs.cache
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Logging\.godot\mono\temp\obj\Debug\Godot.Module.Logging.csproj.Fody.CopyLocal.cache
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Logging\.godot\mono\temp\obj\Debug\Godot.Module.Logging.dll
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Logging\.godot\mono\temp\obj\Debug\refint\Godot.Module.Logging.dll
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Logging\.godot\mono\temp\obj\Debug\Godot.Module.Logging.pdb
+D:\CodeLive\NumberPlace\src\libs\Godot.Module.Logging\.godot\mono\temp\obj\Debug\ref\Godot.Module.Logging.dll

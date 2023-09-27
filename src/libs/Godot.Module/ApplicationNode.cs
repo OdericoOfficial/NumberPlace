@@ -11,25 +11,37 @@ namespace Godot.Module
         where TCustomModule : CustomModule, new()
     {
         private static volatile IServiceProvider? _provider;
+        private static readonly object _monitor = new object();
 
         public static IServiceProvider Instance
-            => _provider ?? throw new NullReferenceException("ServiceProvider initialize failed");
-
-        public override async void _EnterTree()
         {
-            IServiceCollection services = new ServiceCollection();
-            IList<CustomModule> modules = new List<CustomModule>();
-            HashSet<Type> types = new HashSet<Type>();
-            AddAllModule(modules, types, typeof(TCustomModule));
+            get
+            {
+                if (_provider is null)
+                {
+                    lock (_monitor)
+                    {
+                        if (_provider is null)
+                        {
+                            IServiceCollection services = new ServiceCollection();
+                            IList<CustomModule> modules = new List<CustomModule>();
+                            HashSet<Type> types = new HashSet<Type>();
+                            AddAllModule(modules, types, typeof(TCustomModule));
 
-            foreach (var module in modules)
-                await module.ConfigureServicesAsync(services);
+                            foreach (var module in modules)
+                                module.ConfigureServices(services);
 
-            IServiceProvider provider = services.BuildServiceProvider();
-            foreach (var module in modules)
-                await module.OnApplicationInitializationAsync(provider);
+                            IServiceProvider provider = services.BuildServiceProvider();
+                            foreach (var module in modules)
+                                module.OnApplicationInitialization(provider);
 
-            _provider = provider;
+                            _provider = provider;
+                        }
+                    }
+                }
+
+                return _provider;
+            }
         }
 
         private static void AddAllModule(IList<CustomModule> modules, HashSet<Type> types, Type type)

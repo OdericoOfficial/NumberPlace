@@ -1,0 +1,17 @@
+D:\CodeLive\NumberPlace\src\applications\NumberPlace.Domain\.godot\mono\temp\bin\Debug\NumberPlace.Domain.deps.json
+D:\CodeLive\NumberPlace\src\applications\NumberPlace.Domain\.godot\mono\temp\bin\Debug\NumberPlace.Domain.dll
+D:\CodeLive\NumberPlace\src\applications\NumberPlace.Domain\.godot\mono\temp\bin\Debug\NumberPlace.Domain.pdb
+D:\CodeLive\NumberPlace\src\applications\NumberPlace.Domain\.godot\mono\temp\bin\Debug\Godot.Module.dll
+D:\CodeLive\NumberPlace\src\applications\NumberPlace.Domain\.godot\mono\temp\bin\Debug\Godot.Module.Repository.Abstracts.dll
+D:\CodeLive\NumberPlace\src\applications\NumberPlace.Domain\.godot\mono\temp\bin\Debug\Godot.Module.Repository.Abstracts.pdb
+D:\CodeLive\NumberPlace\src\applications\NumberPlace.Domain\.godot\mono\temp\bin\Debug\Godot.Module.pdb
+D:\CodeLive\NumberPlace\src\applications\NumberPlace.Domain\.godot\mono\temp\obj\Debug\NumberPlace.Domain.csproj.AssemblyReference.cache
+D:\CodeLive\NumberPlace\src\applications\NumberPlace.Domain\.godot\mono\temp\obj\Debug\NumberPlace.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeLive\NumberPlace\src\applications\NumberPlace.Domain\.godot\mono\temp\obj\Debug\NumberPlace.Domain.AssemblyInfoInputs.cache
+D:\CodeLive\NumberPlace\src\applications\NumberPlace.Domain\.godot\mono\temp\obj\Debug\NumberPlace.Domain.AssemblyInfo.cs
+D:\CodeLive\NumberPlace\src\applications\NumberPlace.Domain\.godot\mono\temp\obj\Debug\NumberPlace.Domain.csproj.CoreCompileInputs.cache
+D:\CodeLive\NumberPlace\src\applications\NumberPlace.Domain\.godot\mono\temp\obj\Debug\NumberPlace.Domain.csproj.CopyComplete
+D:\CodeLive\NumberPlace\src\applications\NumberPlace.Domain\.godot\mono\temp\obj\Debug\NumberPlace.Domain.dll
+D:\CodeLive\NumberPlace\src\applications\NumberPlace.Domain\.godot\mono\temp\obj\Debug\refint\NumberPlace.Domain.dll
+D:\CodeLive\NumberPlace\src\applications\NumberPlace.Domain\.godot\mono\temp\obj\Debug\NumberPlace.Domain.pdb
+D:\CodeLive\NumberPlace\src\applications\NumberPlace.Domain\.godot\mono\temp\obj\Debug\ref\NumberPlace.Domain.dll
